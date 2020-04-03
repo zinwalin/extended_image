@@ -900,7 +900,7 @@ class _ExtendedImageState extends State<ExtendedImage>
                 onTap: () {
                   reLoadImage();
                 },
-                child: Text("Failed to load image"),
+                child: Text("图片加载失败"),
               ),
             );
             break;
